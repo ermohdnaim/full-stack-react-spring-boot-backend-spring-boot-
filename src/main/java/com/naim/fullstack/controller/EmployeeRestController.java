@@ -17,7 +17,7 @@ import com.naim.fullstack.entity.Employee;
 import com.naim.fullstack.service.EmployeeService;
 
 
-@CrossOrigin(origins="https://full-stack-1-0-1-110820.herokuapp.com/")
+@CrossOrigin(origins="https://blissful-kepler-2e6090.netlify.app/")
 @RestController
 @RequestMapping("/api")
 public class EmployeeRestController {
