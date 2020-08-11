@@ -11,7 +11,7 @@ public class EmployeeRestController {
 	
 	
 	
-	@GetMapping("/demo")
+	@GetMapping("/employees")
 	public String getDemo() {
 		
 		return "Welcome To Spring_Boot_Rest_CURD_Using_DATA_REST Project";
