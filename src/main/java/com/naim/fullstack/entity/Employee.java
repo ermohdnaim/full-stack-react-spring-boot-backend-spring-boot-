@@ -1,4 +1,4 @@
-package com.luv2code.springboot.cruddemo.entity;
+package com.naim.fullstack.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="employee_Data_rest")
+@Table(name="full_stack_react_with_spring_boot_backend")
 public class Employee {
 
 	// define fields
@@ -27,7 +27,8 @@ public class Employee {
 	@Column(name="email")
 	private String email;
 	
-		
+	@Column(name="address")
+	private String address;	
 	// define constructors
 	
 	public Employee() {
@@ -74,6 +75,16 @@ public class Employee {
 		this.email = email;
 	}
 
+	
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
 	// define tostring
 
 	@Override
